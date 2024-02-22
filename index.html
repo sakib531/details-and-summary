@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        details[open] summary {
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+        }
+
+        details[open] p {
+            background-color: burlywood;
+            color: white;
+            padding: 5px 10px;
+        }
+
+        details {
+            margin-bottom: 20px;
+            border-bottom: 1px dashed #999;
+            padding-bottom: 18px;
+        }
+
+    </style>
 </head>
 <body>
     <details>
         <summary>press here for more</summary>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum assumenda fugiat maiores eum labore repellendus fuga aut nulla quam a porro vitae ex asperiores cumque, dicta eius explicabo similique rem impedit quos. Beatae soluta maxime facilis delectus fugit necessitatibus, praesentium qui libero ullam. In id dolor quae provident perferendis cumque?
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum assumenda fugiat maiores eum labore repellendus fuga aut nulla quam a porro vitae ex asperiores cumque, dicta eius explicabo similique rem impedit quos. Beatae soluta maxime facilis delectus fugit necessitatibus, praesentium qui libero ullam. In id dolor quae provident perferendis cumque?</p>
     </details>
 </body>
 </html>
